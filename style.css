@@ -1,0 +1,488 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.a a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  gap: 50px;
+
+
+}
+
+.boshi {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 80px;
+  background-color: #667eb3;
+  ;
+
+}
+
+.d:hover {
+  opacity: 0.6;
+
+}
+
+.a {
+  display: flex;
+  gap: 40px;
+  padding-right: 90px;
+
+
+}
+
+.jcibl {
+  font-family: "Inter", sans-serif;
+  font-size: 58px;
+  color: #333333;
+
+
+}
+
+.p {
+  font-family: "Inter", sans-serif;
+  color: #313f68;
+  padding-top: 10px;
+}
+
+.boshchasi {
+  padding-left: 100px;
+  padding-bottom: 60px;
+  position: relative;
+  color: green;
+}
+
+.uktftuc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 80px;
+
+}
+
+.dwq {
+  border-radius: 80px;
+}
+
+/* From Uiverse.io by e-coders */
+button {
+  appearance: none;
+  background-color: transparent;
+  border: 0.125em solid #3b5998;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #3b5998;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 3.75em;
+  min-width: 0;
+  outline: none;
+  padding: 1em 2.3em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+  margin-top: 20px;
+
+}
+
+button:disabled {
+  pointer-events: none;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #3b5998;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+/* From Uiverse.io by david-mohseni */
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  height: 120px;
+  width: 100%;
+  padding-top: 40px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  transform: translate(130px, -108px);
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #fff;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(96, 86, 86, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background: #1877f2;
+  color: #fff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background: #1da1f2;
+  color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background: #e4405f;
+  color: #fff;
+}
+
+.yonimdagi {
+  font-family: "Poppins", sans-serif;
+
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+/* From Uiverse.io by 3HugaDa3 */
+.card {
+  width: 320px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) rotateY(5deg);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.card-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(to bottom,
+      transparent,
+      rgba(255, 255, 255, 0.1) 50%,
+      transparent);
+  transform: rotate(45deg);
+  animation: shine 3s infinite;
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-50%) rotate(45deg);
+  }
+
+  100% {
+    transform: translateX(100%) rotate(45deg);
+  }
+}
+
+.card-content {
+  padding: 24px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0 0 16px;
+  position: relative;
+  padding-bottom: 10px;
+
+  font-family: "Inter", sans-serif;
+}
+
+.card-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 50px;
+  height: 3px;
+  background-color: #4f46e5;
+  transition: width 0.3s ease;
+}
+
+.card:hover .card-title::after {
+  width: 100px;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.card-tag {
+  font-size: 12px;
+  color: #4f46e5;
+  background-color: #eef2ff;
+  padding: 4px 10px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  font-family: "Inter", sans-serif;
+}
+
+.card-tag:hover {
+  background-color: #4f46e5;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.card-stats {
+  display: flex;
+  gap: 16px;
+}
+
+.card-stat {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.card-stat-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.card-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #4f46e5, #818cf8);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+
+}
+
+.card-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg,
+      transparent,
+      rgba(255, 255, 255, 0.3),
+      transparent);
+  transition: all 0.4s ease;
+}
+
+.card-button:hover::before {
+  left: 100%;
+}
+
+.card-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(79, 70, 229, 0.4);
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(-10px) rotate(0.1deg);
+  }
+}
+
+.card {
+  animation: float 6s ease-in-out infinite;
+  margin-left: 20px;
+  margin-top: 90px;
+}
+
+.card-image img {
+  height: 178px;
+}
+
+.bhilcbhilbhilcf {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dugglyidcvycd {
+  margin-top: 70px;
+}
+
+.boshchasi {
+  margin-top: 90px;
+}
+
+.dwq {
+  transform: translate(0px, -40px);
+}
+
+.uedhbhfk {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ilgydfyukewfgyuedyudfyu {
+  background-color: #fbfbfc;
+
+
+}
+
+.addfdf {
+  position: absolute;
+  top: 0px;
+  right: -100px;
+  transform: rotate(-15deg);
+}
+
+.dcfvfvfvasqsc {
+  color: rgb(29, 55, 187);
+}
+
+.aa {
+  color: #3b5998;
+}
+
+.sdsd {
+  color: #3b5998;
+}
+
+.jvnkbfkb {
+  color: #4d628f;
+  ;
+
+}
+
+.gvedgv {
+  border-bottom: #0b3979 3px solid;
+
+
+  width: 250px
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+.bjdcdjvdc  {
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+padding-top: 10px;
+}
+.bjdcdjvdc img{border-radius: 20px;}
+.blhidwbhildbhilc{ font-family: "Inter", sans-serif;
+font-size: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+  
